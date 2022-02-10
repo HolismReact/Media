@@ -1,5 +1,5 @@
 import { List } from '@List'
-import UpsertImage from './Upsert'
+import CreateImage from './Create'
 
 const card = (item) => {
     return <div className="w-full h-full">
@@ -13,7 +13,7 @@ const Images = () => {
         entityType='Image'
         card={card}
         multicolumn={true}
-        upsert={UpsertImage}
+        create={CreateImage}
         hasDelete={true}
     />
 }

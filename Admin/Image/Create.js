@@ -7,7 +7,7 @@ const inputs = <>
     />
 </>
 
-const UpsertImage = () => {
+const CreateImage = () => {
     return <Form
         title='Upload image(s)'
         entityType='Image'
@@ -15,4 +15,4 @@ const UpsertImage = () => {
     />
 }
 
-export default UpsertImage
+export default CreateImage
